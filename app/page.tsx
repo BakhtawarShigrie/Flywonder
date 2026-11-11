@@ -21,7 +21,7 @@ export default function Home() {
         {/* Company Logo */}
         <div className="mb-4 md:mb-8 w-48 md:w-72">
           <Image
-            src="/logo-03.png"
+            src="/logo.png"
             alt="Fly Wonder Travel & Tours Logo"
             width={300}
             height={300}
