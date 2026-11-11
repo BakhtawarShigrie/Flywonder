@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 export default function Home() {
   return (
     <main className="relative flex h-[100dvh] w-full flex-col items-center justify-center overflow-hidden bg-black">
@@ -19,7 +18,7 @@ export default function Home() {
       {/* Centered Content */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 w-full max-w-4xl mx-auto h-full">
         
-        {/* Company Logo - Size Increased & Responsive */}
+        {/* Company Logo */}
         <div className="mb-4 md:mb-8 w-48 md:w-72">
           <Image
             src="/logo-03.png"
@@ -40,10 +39,14 @@ export default function Home() {
           Our website is launching very soon! <br className="md:hidden" /> (Launching Soon)
         </p>
         
-        {/* Address Box */}
-        <div className="px-6 py-4 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 shadow-2xl w-full max-w-md md:max-w-xl">
+        {/* Contact & Address Box */}
+        <div className="px-6 py-5 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 shadow-2xl w-full max-w-md md:max-w-xl space-y-3">
           <p className="text-sm md:text-base text-gray-300 leading-relaxed">
             <span className="font-semibold text-white">Address:</span> Office Number LG-28, LandMark Plaza, Jail Road, Lahore
+          </p>
+          <div className="w-full h-px bg-white/20"></div> {/* Line separator */}
+          <p className="text-sm md:text-base text-gray-300 leading-relaxed">
+            <span className="font-semibold text-white">Phone:</span> 0309 787 9999 <span className="mx-2 text-white/50">|</span> 0239 787 9999
           </p>
         </div>
       </div>
